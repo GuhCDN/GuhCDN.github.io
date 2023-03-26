@@ -1,0 +1,258 @@
+​ [FAST CONNECT] connecting to: wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream
+​ [FAST CONNECT] connected in 511ms
+​ [default] [BUILD INFO] Release Channel: stable, Build Number: 183813, Version Hash: 7a19dec317ce2c87b871a0aade517829f85e0f30
+​ AppCrashedFatalReport: getLastCrash not supported.
+4c0b77c….js:7 Uncaught (in promise) 
+​ Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+Arguments: 
+[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]
+Error
+    at Function.createFromInputFallback (https://discord.com/assets/4c0b77c5d73629fac4a3.js:1433:330)
+    at Bn (https://discord.com/assets/4c0b77c5d73629fac4a3.js:1459:696)
+    at Wn (https://discord.com/assets/4c0b77c5d73629fac4a3.js:1462:356)
+    at Zn (https://discord.com/assets/4c0b77c5d73629fac4a3.js:1462:199)
+    at Yn (https://discord.com/assets/4c0b77c5d73629fac4a3.js:1461:886)
+    at Kn (https://discord.com/assets/4c0b77c5d73629fac4a3.js:1462:697)
+    at zn (https://discord.com/assets/4c0b77c5d73629fac4a3.js:1462:731)
+    at i (https://discord.com/assets/4c0b77c5d73629fac4a3.js:1429:961)
+    at 408481 (https://discord.com/assets/5a1ea89355dd00c4d846.js:21:346)
+    at l (https://discord.com/assets/1e64983944a7ef328d8e.js:1:154)
+    at 558820 (https://discord.com/assets/5a1ea89355dd00c4d846.js:14:168)
+    at l (https://discord.com/assets/1e64983944a7ef328d8e.js:1:154)
+    at 988376 (https://discord.com/assets/57d48653ef43109bbc56.js:15:43)
+    at Function.l (https://discord.com/assets/1e64983944a7ef328d8e.js:1:154)
+(anonymous) @ 3af3d98….js:241
+​ [DEPRECATED] Please use `subscribeWithSelector` middleware
+(anonymous) @ 3af3d98….js:241
+​ [Routing/Utils] transitionTo - Transitioning to /app
+​ [GatewaySocket] .connect() called, new state is WILL_RECONNECT
+​ [GatewaySocket] [CONNECT] wss://gateway.discord.gg, encoding: json, version: 9, compression: zlib-stream
+​ [GatewaySocket] [FAST CONNECT] successfully took over websocket, state: Object
+​ [GatewaySocket] [CONNECTED] wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream in 4 ms
+​ [ConnectionStore] handleIdentify called Object
+​ [GatewaySocket] [IDENTIFY]
+​ [GatewaySocket] [HELLO] via 
+gateway-prd-us-east1-c-9d44: 0, heartbeat interval: 41250, took 41 ms
+​ [GatewaySocket] [READY] took 4269ms, as d0655f22ec94f3772eab49412b2da652 via 
+gateway-prd-us-east1-c-9d44: 1523.265
+|  id_created: 1.745
+|  session_lookup_time: 0.371
+|  session_lookup_finished: 0.024
+|  discord-sessions-blue-prd-2-20: 1457.786
+|  |  start_session: 202.148
+|  |  |  discord-api-55ccd599b9-dj4qw: 173.645
+|  |  |  |  get_user: 27.995
+|  |  |  |  get_guilds: 78.654
+|  |  |  |  user_settings_proto: 0.253
+|  |  |  |  relationships: 25.217
+|  |  |  |  friend_suggestion: 0.074
+|  |  |  |  connections: 0.235
+|  |  |  |  serialized_read_states: 0.007
+|  |  |  |  pending_payments: 0.001
+|  |  |  |  send_scheduled_deletion_message: 0.002
+|  |  |  |  sanitize_premium_perks: 0.001
+|  |  |  |  guild_join_requests: 0.001
+|  |  |  |  user_guild_settings: 0.002
+|  |  |  |  serialized_private_channels: 0.002
+|  |  |  |  user_segments: 0.001
+|  |  |  |  experiments: 10.338
+|  |  |  |  affine_user_ids: 18.497
+|  |  |  |  required_action: 0.003
+|  |  |  |  authorized_ip_coro: 0.002
+|  |  starting_guild_connect: 0.077
+|  |  presence_started: 0.46
+|  |  guilds_started: 4.97
+|  |  guilds_connect: 1218.217
+|  |  presence_connect: 0.001
+|  |  connect_finished: 1218.258
+|  |  build_ready: 20.008
+|  |  clean_ready: 0.003
+|  |  optimize_ready: 11.542
+|  |  split_ready: 0.317
+​ [GatewaySocket] Updating resume url to wss://gateway-us-east1-c.discord.gg
+​ [GatewaySocket] [READY_SUPPLEMENTAL] took 4527ms
+​ [AuthenticationStore] handleConnectionOpen called Object
+​ [GuildAvailabilityStore] 5 guilds are unavailable on connection open: 939565178062778368,1029767047422423110,1002678803614683156,976275690968219679,1015013744549568562
+(anonymous) @ 3af3d98….js:241
+​ [MessageActionCreators] Fetching messages for 985551688809209919 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+​ [Flux] Slow dispatch on CONNECTION_OPEN: 871.3000000007451ms
+​ [Flux] Slow dispatch on CONNECTION_OPEN_SUPPLEMENTAL: 326.1000000014901ms
+​ [ConnectionStore] Dispatched 11 messages in 1915ms
+​ [MessageActionCreators] Fetched 0 messages from local database (channel_id: 985551688809209919, remote_fetch_completed: false)
+​ [Flux] Slow dispatch on CHANNEL_SELECT: 186.59999999962747ms
+​ [MessageActionCreators] Fetched 50 messages for 985551688809209919 isBefore:false isAfter:false
+​ [Flux] Slow dispatch on LOAD_MESSAGES_SUCCESS: 188.40000000037253ms
+​ [GuildAvailabilityStore] Guild has become available: 1015013744549568562
+​ [Flux] Slow dispatch on GUILD_CREATE: 108.69999999925494ms
+​ [GuildAvailabilityStore] Guild has become available: 1002678803614683156
+​ [GuildAvailabilityStore] Guild has become available: 976275690968219679
+​ [GuildAvailabilityStore] Guild has become available: 1029767047422423110
+​ [Flux] Slow dispatch on GUILD_CREATE: 149.90000000037253ms
+​ [GuildAvailabilityStore] Guild has become available: 939565178062778368
+​ [ConnectionStore] Dispatched 10 messages in 570ms
+​ [Flux] Slow dispatch on GAMES_DATABASE_UPDATE: 718.4000000003725ms
+​ [MessageActionCreators] Fetching messages for 992520602944553090 between undefined and undefined. jump={"jumpType":"ANIMATED"}
+​ [MessageActionCreators] Fetched 0 messages from local database (channel_id: 992520602944553090, remote_fetch_completed: false)
+​ [Routing/Utils] transitionTo - Transitioning to /channels/962413655700406333/992520602944553090
+​ [MessageActionCreators] Fetched 50 messages for 992520602944553090 isBefore:false isAfter:false
+​ [Flux] Slow dispatch on LOAD_MESSAGES_SUCCESS: 118.90000000037253ms
+​ [CloudUpload.tsx] Requesting upload url for upload40
+​ [CloudUpload.tsx] Uploading upload40
+​ [CloudUpload.tsx] Upload complete for upload40
+​ [discord_protos.discord_users.v1.FrecencyUserSettings] Loading proto
+​ [CloudUploaderBase.tsx] setUploadingTextForUI - total content: 33947 bytes and 1 attachments for Uploader42
+​ [UploaderBase.tsx] _handleComplete for Uploader42
+​ [MessageActionCreators] Fetching messages for 962413656199536642 between undefined and undefined. jump={"isHighlight":false,"jumpType":"ANIMATED"}
+​ [MessageActionCreators] Fetched 0 messages from local database (channel_id: 962413656199536642, remote_fetch_completed: false)
+​ [Routing/Utils] transitionTo - Transitioning to /channels/962413655700406333/962413656199536642
+​ [MessageActionCreators] Fetched 50 messages for 962413656199536642 isBefore:false isAfter:false
+​ [ConnectionStore] Dispatched 7 messages in 165ms
+​ [ClientStateStore] Gap detected in read state versions 101364 101366 Object
+​ [CloudUpload.tsx] Requesting upload url for upload64
+​ [CloudUpload.tsx] Uploading upload64
+​ [CloudUpload.tsx] Upload complete for upload64
+​ [discord_protos.discord_users.v1.FrecencyUserSettings] Scheduling save from markDirty
+​ [discord_protos.discord_users.v1.FrecencyUserSettings] Persisting proto
+​ [CloudUploaderBase.tsx] setUploadingTextForUI - total content: 33947 bytes and 1 attachments for Uploader66
+​ [UploaderBase.tsx] _handleComplete for Uploader66
+​ [ConnectionStore] Dispatched 4 messages in 121ms
+​ [Flux] Slow dispatch on MESSAGE_CREATE: 224ms
+​ [ConnectionStore] Dispatched 1 messages in 260ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow batch emitReactChanges took 103ms recentActions: PRESENCE_UPDATES -> MESSAGE_CREATE -> RPC_NOTIFICATION_CREATE -> MESSAGE_CREATE -> RPC_NOTIFICATION_CREATE -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> MESSAGE_CREATE -> RPC_NOTIFICATION_CREATE -> MESSAGE_CREATE
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 1 messages in 118ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on WINDOW_FOCUS: 102.79999999888241ms
+3af3d982dc28be542ea1.js:241 [ClientStateStore] Gap detected in read state versions 101366 101368 Object
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on MESSAGE_CREATE: 269ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow batch emitReactChanges took 218ms recentActions: MESSAGE_CREATE -> RPC_NOTIFICATION_CREATE -> MESSAGE_CREATE -> RPC_NOTIFICATION_CREATE -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> MESSAGE_CREATE -> RPC_NOTIFICATION_CREATE -> MESSAGE_CREATE -> RPC_NOTIFICATION_CREATE
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 1 messages in 781ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on PASSIVE_UPDATE_V1: 208.80000000074506ms
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 1 messages in 263ms
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 1 messages in 124ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on MESSAGE_UPDATE: 354.09999999962747ms
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 2 messages in 408ms
+3af3d982dc28be542ea1.js:241 Hold Up!
+3af3d982dc28be542ea1.js:241 If someone told you to copy/paste something here you have an 11/10 chance you're being scammed.
+3af3d982dc28be542ea1.js:241 Pasting anything in here could give attackers access to your Discord account.
+3af3d982dc28be542ea1.js:241 Hold Up!
+3af3d982dc28be542ea1.js:241 If someone told you to copy/paste something here you have an 11/10 chance you're being scammed.
+3af3d982dc28be542ea1.js:241 Pasting anything in here could give attackers access to your Discord account.
+DevTools failed to load source map: Could not load content for chrome-extension://bmnlcjabgnpnenekpadlanbbkooimhnj/browser-polyfill.js.map: System error: net::ERR_BLOCKED_BY_CLIENT
+DevTools failed to load source map: Could not load content for https://discord.com/assets/1e64983944a7ef328d8e.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/3af3d982dc28be542ea1.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/8e906b4fc7347d180992.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/ac5a2ca155ef07ea4050.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/4001267d46719fa526ba.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/4c0b77c5d73629fac4a3.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/1c2df8024ef2c53817ed.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/fe8d970d0fc8e0c676f9.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/ed17f25799d59ffde9ae.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/57d48653ef43109bbc56.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/a48ac06ae30799d7d07a.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/c8e491b27fe94f60d363.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/fdfcdf7c2a861eaa9ad7.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/5a1ea89355dd00c4d846.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/4dc022793054598597cf.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/99c48d29c1f07e9ecaf2.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/37ab9316fc46511a9ddd.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/b40679c0d82dac77d8bc.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/523aad0ed0983e43e2d1.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/6b1f82a788f6fff225fd.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/38d076cb63053ca80143.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/5f452d53e4c8ca58dc62.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/fa9206fb1ac991ff56f1.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/63b6a59ca196281ec3dc.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/12229a0fe8aec68d443e.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/57a215522a57b157b617.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/a739b5da00ed40de2388.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/9e2273041e0d402b5480.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/2dcb2e7b7487a4ff3627.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/0912a91a2f341c8f13c8.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/ec1837067e0114334335.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/00bcd43c7fecc0e5979a.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/63c26e448542b2891a47.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/b85ed97de3bee346035c.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/136da84682453b664ae9.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/a7dda29754b4aa33e621.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/2bca5148146ab09a0f77.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/8e26f45b048586e8bd4b.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/08a46f6348c92062d190.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/860fd323407b2778bea1.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/eb08a5d21bdc66e51355.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/2010e5daf2e12d51a25b.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/e63d6ffa49bacfd19797.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/4d35867b89d391765d7f.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/b62c62429a41fb1f5911.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/5c7a2087e4bdd14638dc.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/3eb2dff77251b77079a9.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/967f9b996fa3ae8a0840.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/c30dc89c64400a4d4e76.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/4e5ff9264802ba2e0075.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/8a2c782899ad56007d61.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/f24a784e9c659984bc9f.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/a8bbbdc8f378534749a0.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/760afff8c41a5a4428f4.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/81e9479051a5f6013eac.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/379432170a408d99d3e3.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/311585901d6932763fb6.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/9ce827059994703abdd5.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/a178925e38d01d943da9.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/692acd5142bca4f4e465.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/b9c24d8c1921ae13fd87.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/84f5bda14b25c65f8d7c.worker.js.map: Fetch through target failed: Target not supported; Fallback: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/3cdf1e508a5821a0cdad.worker.js.map: Fetch through target failed: Target not supported; Fallback: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/40532.476e4293de2fc7733cf0.css.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+DevTools failed to load source map: Could not load content for https://discord.com/assets/fabe5167f413a48cbbe1.worker.js.map: Fetch through target failed: Target not supported; Fallback: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+3af3d982dc28be542ea1.js:241 Hold Up!
+3af3d982dc28be542ea1.js:241 If someone told you to copy/paste something here you have an 11/10 chance you're being scammed.
+3af3d982dc28be542ea1.js:241 Pasting anything in here could give attackers access to your Discord account.
+3af3d982dc28be542ea1.js:241 Hold Up!
+3af3d982dc28be542ea1.js:241 If someone told you to copy/paste something here you have an 11/10 chance you're being scammed.
+3af3d982dc28be542ea1.js:241 Pasting anything in here could give attackers access to your Discord account.
+3af3d982dc28be542ea1.js:241 Hold Up!
+3af3d982dc28be542ea1.js:241 If someone told you to copy/paste something here you have an 11/10 chance you're being scammed.
+3af3d982dc28be542ea1.js:241 Pasting anything in here could give attackers access to your Discord account.
+3af3d982dc28be542ea1.js:241 Unless you understand exactly what you are doing, close this window and stay safe.
+3af3d982dc28be542ea1.js:241 If you do understand exactly what you are doing, you should come work with us https://discord.com/jobs
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on PRESENCE_UPDATES: 191.5ms
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 3 messages in 193ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow batch emitReactChanges took 101ms recentActions: PRESENCE_UPDATES -> GUILD_MEMBER_LIST_UPDATE -> MESSAGE_CREATE -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> MESSAGE_CREATE
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 1 messages in 138ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on PRESENCE_UPDATES: 609.5ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on VOICE_STATE_UPDATES: 653.5999999996275ms
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 4 messages in 1307ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow batch emitReactChanges took 264ms recentActions: PRESENCE_UPDATES -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> MESSAGE_CREATE -> PRESENCE_UPDATES -> VOICE_STATE_UPDATES -> MESSAGE_CREATE -> PRESENCE_UPDATES -> MESSAGE_CREATE -> PRESENCE_UPDATES
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 2 messages in 559ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow batch emitChanges took 103ms recentActions: MESSAGE_CREATE -> PRESENCE_UPDATES -> MESSAGE_CREATE -> PRESENCE_UPDATES -> MESSAGE_CREATE -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> PRESENCE_UPDATES
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 1 messages in 246ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on PASSIVE_UPDATE_V1: 165.90000000037253ms
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 1 messages in 198ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on CHANNEL_DELETE: 109.39999999850988ms
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 2 messages in 209ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on PASSIVE_UPDATE_V1: 150.90000000037253ms
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 2 messages in 304ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on CHANNEL_UPDATES: 28215.099999999627ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow batch emitReactChanges took 2897ms recentActions: MESSAGE_UPDATE -> MESSAGE_CREATE -> MESSAGE_UPDATE -> CHANNEL_DELETE -> MESSAGE_UPDATE -> PASSIVE_UPDATE_V1 -> PRESENCE_UPDATES -> PRESENCE_UPDATES -> PASSIVE_UPDATE_V1 -> CHANNEL_UPDATES
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on MESSAGE_CREATE: 231.2999999988824ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow batch emitReactChanges took 191ms recentActions: RPC_NOTIFICATION_CREATE -> MESSAGE_CREATE -> RPC_NOTIFICATION_CREATE -> PRESENCE_UPDATES -> MESSAGE_DELETE -> PRESENCE_UPDATES -> GUILD_MEMBER_ADD -> MESSAGE_CREATE -> MESSAGE_CREATE -> RPC_NOTIFICATION_CREATE
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 42 messages in 34726ms
+3af3d982dc28be542ea1.js:241 [GatewaySocket] [WS CLOSED] (true, 1000, ) retrying in 2.86 seconds.
+(anonymous) @ 3af3d982dc28be542ea1.js:241
+(anonymous) @ 4c0b77c5d73629fac4a3.js:5299
+warn @ 4c0b77c5d73629fac4a3.js:8828
+r._handleClose @ 4c0b77c5d73629fac4a3.js:7184
+onClose @ 4c0b77c5d73629fac4a3.js:7176
+3af3d982dc28be542ea1.js:241 [GatewaySocket] [CONNECT] wss://gateway-us-east1-c.discord.gg, encoding: json, version: 9, compression: zlib-stream
+3af3d982dc28be542ea1.js:241 [GatewaySocket] [CONNECTED] wss://gateway-us-east1-c.discord.gg/?encoding=json&v=9&compress=zlib-stream in 417 ms
+3af3d982dc28be542ea1.js:241 [GatewaySocket] [RESUME] resuming session d0655f22ec94f3772eab49412b2da652, seq: 585
+3af3d982dc28be542ea1.js:241 [GatewaySocket] [HELLO] via 
+gateway-prd-us-east1-c-6r60: 0, heartbeat interval: 41250, took 438 ms
+3af3d982dc28be542ea1.js:241 [GatewaySocket] [RESUMED] took 633ms, via 
+gateway-prd-us-east1-c-6r60: 10.729
+|  id_created: 0
+|  session_lookup_time: 8.128
+|  session_lookup_finished: 0.013
+|  discord-sessions-blue-prd-2-20: 0.195, replayed 31 events, new seq: 616
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on VOICE_STATE_UPDATES: 165.09999999962747ms
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 31 messages in 640ms
+3af3d982dc28be542ea1.js:241 [Flux] Slow dispatch on PRESENCE_UPDATES: 100.09999999962747ms
+3af3d982dc28be542ea1.js:241 [ConnectionStore] Dispatched 1 messages in 207ms
