@@ -1,0 +1,43 @@
+<div class="dvd">
+  <div class="disc"></div>
+  <div class="light"></div>
+</div>
+
+<style>
+  .dvd {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: 100px auto;
+  }
+  
+  .disc {
+    width: 150px;
+    height: 150px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  
+  .light {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    animation: spin 10s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
