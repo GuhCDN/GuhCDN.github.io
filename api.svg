@@ -1,0 +1,19 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#fff"/>
+  <rect x="10" y="10" width="480" height="480" fill="#fce9d7" stroke="#000" stroke-width="2" rx="20" />
+  <rect x="50" y="50" width="400" height="400" fill="#ffdab9" stroke="#000" stroke-width="2" rx="20" />
+  <circle cx="250" cy="250" r="150" fill="#fff" stroke="#000" stroke-width="2" />
+  <path d="M 175,300 C 190,260 310,260 325,300" stroke="#000" stroke-width="2" fill="none"/>
+  <rect x="200" y="325" width="100" height="50" fill="#fff" stroke="#000" stroke-width="2" rx="10"/>
+  <circle cx="220" cy="350" r="5" fill="#000"/>
+  <circle cx="280" cy="350" r="5" fill="#000"/>
+  <path d="M 250,200 C 220,220 220,280 250,300 C 280,280 280,220 250,200" stroke="#000" stroke-width="2" fill="#fff"/>
+  <path d="M 200,150 L 300,150 L 250,120 Z" fill="#ffdab9" stroke="#000" stroke-width="2"/>
+  <path d="M 250,300 C 280,290 280,270 260,260" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M 250,300 C 220,290 220,270 240,260" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M 200,400 C 210,370 290,370 300,400" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M 200,400 C 210,420 290,420 300,400" stroke="#000" stroke-width="2" fill="none"/>
+  <path d="M 220,240 L 230,240 L 230,230 L 220,230 Z" fill="#000"/>
+  <path d="M 270,240 L 280,240 L 280,230 L 270,230 Z" fill="#000"/>
+  <path d="M 240,380 L 260,380 L 250,390 Z" fill="#ffdab9" stroke="#000" stroke-width="2"/>
+</svg>
